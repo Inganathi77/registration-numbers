@@ -22,7 +22,7 @@ body {
 
 * {
   font-family: 'Lato', Helvetica, sans-serif;
-  color: #333447;
+  color:hsl(180, 12%, 8%);
   line-height: 1.5;
 }
 

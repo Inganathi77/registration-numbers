@@ -1,0 +1,70 @@
+ .name{
+    justify-content: center;
+    display: flex;
+}
+input{
+    margin-top: 3em;
+}
+body0, html{
+    background-image: url(../assets/journey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shift{
+    justify-content: center;
+    display: flex;
+}
+.col-11{
+    text-align: center;
+}
+.display{
+    justify-content: center;
+    display: flex;
+} 
+.shape {
+    width : 2em;
+    height : 2em;
+    padding : 0.25em;
+    margin : 0.25em;
+    float : left;
+    text-align: center;
+    font-weight : lighter;
+    border-radius: 2px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.div{
+    justify-content: center; 
+    display: flex;
+}
+.container ul{
+    list-style-type:none;
+}
+
+
+/* .div{
+    background:yellow;
+    border: rgb(167, 97, 97) solid;
+    border-radius:5px;
+    justify-content: center;
+    display: inline;
+    margin-left:2em;
+} */
+
+li {
+    border: 1px solid black;
+    background-color: rgba(255, 217, 1, 0.842);
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 19px;
+    float: left;
+    list-style: none;
+}

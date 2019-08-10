@@ -7,45 +7,51 @@
     <title>Registration Numbers</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/simple-grid.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/registration.css">
 </head>
 
 <body>
+
+
+
+
     <div class="container">
+
         <div class="row">
             <div class="col-12">
                 <h1 class="center">Registration Numbers</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12 center">
-                <div class="Add">
-                    <input type="text" class="registrationBox">
-                    <button class="">Add</button>
-                </div>
-            </div>
-        </div>
+
+
+        <input type="text" class="registrationBox" maxlength="11">
+        <button class="addButton">Add</button>
+
+       
 
         <div class="row">
             <div class="center">
-                <div class="shift" style="padding-top: 10%;float: center;">
-                    <span>
-                        <input type="radio" name="radioBtn" value="Cape Town"> Cape Town</span>
-
-                    <span>
-                        <input type="radio" name="radioBtn" value="Belville"> Belville</span>
-                    <span>
-                        <input type="radio" name="radioBtn" value="Paarl"> Paarl
-
-                    </span>
-
-
+                <div class="row">
+                    <span><input type="radio" name="radioBtn" value="CA"> Cape Town</span>
+                    <span><input type="radio" name="radioBtn" value="CAW"> George</span>
+                    <span><input type="radio" name="radioBtn" value="CY"> Belville</span>
+                    <span><input type="radio" name="radioBtn" value="CJ"> Paarl</span>
+                    <span><input type="radio" name="radioBtn" value="All"> All</span>
                 </div>
             </div>
         </div>
+        <button class="show">show</button>
+
+       
+          <div class="display"> 
+              <ul class = "regNumbers"></ul>
+          </div>
+       
+
     </div>
-    <script src="js/registration.js"></script>
-    <script src="js/dom/registration.dom.js"></script>
-    <script src="registration_number.js" charset="utf-8"></script>
+
 </body>
+<script src="./js/registration_factory.js"></script>
+<script src="./js/registration_dom.js"></script>
 
 </html>
